@@ -17,7 +17,7 @@ case $letra_maiuscula in
         GET)
         cat apache.log | grep GET
         ;;
-        
+
         POST)
         cat apache.log | grep POST
         ;;
@@ -27,7 +27,7 @@ case $letra_maiuscula in
         ;;
 
         DELETE)
-        cat apache.log | grep GET
+        cat apache.log | grep DELETE
         ;;
 
         *)
