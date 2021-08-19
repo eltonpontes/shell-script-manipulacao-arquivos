@@ -7,3 +7,5 @@
 - conversao-novos-livros - conversão de imagem para .jpg para .png com check de pasta
 - filtrando-resultados-apache.sh - verificando endereço de IP dentro de um .log
 - filtro-requisicao.sh - realizando filtro das informações GET, POST, PUT e DELETE. corrigindo tamanho da letra.
+- monitoramento-http.sh - monitoramento de status do serviço http (Apache2)
+- monitoracao-servidor.sh - verificando status do servidor, caso o serviço esteja fora do ar, enviar e-mail para admin e da um restart no serviço.
